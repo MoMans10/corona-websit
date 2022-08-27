@@ -1,0 +1,456 @@
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(245, 245, 245);
+}
+
+.scroll-btn {
+  background-color: rgb(67, 133, 255);
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 40px;
+  right: 30px;
+}
+
+.scroll-btn i {
+  font-size: 40px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: rgb(67, 133, 255);
+  background-color: white;
+}
+
+.x-btn {
+  background-color: rgb(255, 255, 255);
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  position: fixed;
+}
+
+.x-btn i {
+  font-size: 30px;
+  color: rgb(0, 0, 134);
+  padding: 5px;
+  width: 45px;
+  height: 45px;
+  border: 2px solid rgb(0, 0, 134);
+  border-radius: 50%;
+  background-color: white;
+}
+
+p {
+  flex-wrap: wrap;
+}
+
+section {
+  margin: 100px 0;
+}
+
+.section-title {
+  font-size: 20px;
+  color: rgb(67, 133, 255);
+}
+
+.second-section-title {
+  font-family: "Anton", sans-serif;
+  font-size: 50px;
+}
+
+.btn {
+  background-color: rgb(67, 133, 255);
+  border-radius: 20px;
+  color: white;
+}
+
+.header {
+  background-image: url(./corona-imgs/shape-a.png);
+  background-position: center;
+}
+
+nav {
+  background-color: white;
+}
+
+.nav-item {
+  margin: 0 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.nav-item a {
+  color: black;
+}
+
+.nav-item a:hover {
+  color: blue !important;
+}
+
+.title-icon {
+  font-family: "Anton", sans-serif;
+  font-size: 40px;
+}
+
+.nav-btn {
+  font-size: 18px;
+  border-radius: 25px;
+  border: none;
+  padding: 10px 20px;
+  background-color: rgb(67, 133, 255);
+}
+
+.frist h1 {
+  font-family: "Anton", sans-serif;
+  font-size: 120px;
+  margin: 0 importan;
+  padding: 0 importan;
+}
+.covid-19 {
+  font-family: "Anton", sans-serif;
+  font-size: 40px;
+  margin: 0 !important;
+  padding: 0 importan;
+  color: red;
+}
+.virus {
+  font-family: "Anton", sans-serif;
+  font-size: 70px;
+  margin: 0 !important;
+  padding: 0 importan;
+  color: black;
+}
+
+.frist {
+  margin-top: 150px;
+}
+
+.Protect {
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(67, 133, 255);
+  color: white;
+  padding: 8px 35px;
+  font-size: 17px;
+}
+
+.about {
+  font-size: 17px;
+  text-decoration-line: none;
+  font-weight: 600px;
+}
+
+.silver {
+  color: silver;
+  font-size: 12px;
+  text-align: start;
+}
+
+.blue {
+  color: rgb(67, 133, 255);
+}
+
+.number {
+  font-family: "Anton", sans-serif;
+  font-size: 35px;
+  text-align: start;
+}
+
+.update {
+  color: silver;
+  font-style: italic;
+}
+
+.second {
+  margin-top: 100px;
+}
+
+.CORONAVIRUS {
+  font-family: "Anton", sans-serif;
+  font-size: 35px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.tabel-row {
+  width: 320px;
+}
+
+.tabel-row a {
+  text-decoration: none;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.tabel-head {
+  color: black;
+  border-top: 1px solid rgb(220, 220, 220);
+}
+
+.tabel-box,
+.tabel-head {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(220, 220, 220);
+  margin: 0;
+  padding: 15px;
+  background-color: white;
+}
+
+.tabel-box {
+  border-top: none;
+  color: rgb(67, 133, 255);
+}
+
+.third {
+  margin-top: 100px;
+}
+
+.card {
+  border-radius: 0 !important;
+  border: none;
+  border-top: 4px solid white !important;
+  margin: 20px;
+  padding: 0 !important;
+}
+
+.card-img-top {
+  border-bottom: 7px solid rgb(67, 133, 255);
+  background-color: rgb(250, 250, 250);
+}
+
+.card-body {
+  text-align: start;
+  padding: 25px;
+}
+
+.card-title {
+  color: rgb(67, 133, 255);
+}
+
+.symptoms-img {
+  position: absolute;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-top: -30px;
+  margin-left: 40px;
+  z-index: 20;
+}
+
+.symptoms {
+  position: relative;
+  background-color: white;
+  margin: 20px;
+  text-align: start;
+  padding: 28px;
+  height: 215px;
+}
+
+.Prevention-img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+
+.wash-img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+.text-hand {
+  width: 75px;
+  margin: auto;
+}
+
+.eighth {
+  background-image: url(./corona-imgs/shape-a.png);
+  background-color: rgb(67, 80, 255);
+}
+
+.section-title-treatment {
+  font-size: 18px;
+  color: rgb(0, 238, 255);
+}
+
+.second-section-title-treatment {
+  font-family: "Anton", sans-serif;
+  font-size: 30px;
+  color: white;
+}
+
+.Treatment2 {
+  background-color: rgb(0, 0, 172);
+}
+
+.dont-text {
+  margin-right: 10px;
+  text-align: end;
+  color: rgb(67, 80, 255);
+  font-weight: bold;
+}
+
+.border-donts-img {
+  border: 2px solid red;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+}
+
+.donts-img {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+}
+
+.donts-i,
+.do-i {
+  position: absolute;
+  width: 16px;
+  top: 0%;
+  left: 31px;
+}
+
+.border-do-img {
+  border: 2px solid green;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+}
+
+.do-img {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+}
+
+.do-text {
+  margin-left: 10px;
+  text-align: start;
+  color: rgb(67, 80, 255);
+  font-weight: bold;
+}
+
+.FAQ-btn {
+  color: black;
+  background-color: white;
+  border: 1px solid rgb(210, 210, 210);
+  border-radius: 5px;
+  width: 320px;
+  height: 40px;
+  margin: 0 10px 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.FAQ-btn:hover {
+  color: rgb(67, 80, 255);
+  border-color: rgb(67, 80, 255);
+}
+
+.btn-focus {
+  color: rgb(67, 80, 255) !important;
+  border-color: rgb(67, 80, 255) !important;
+}
+
+.FAQ-title {
+  color: rgb(67, 80, 255);
+  font-size: 16px;
+}
+
+.FAQ {
+  border: 1px solid rgb(210, 210, 210);
+  border-radius: 10px;
+  padding: 0;
+}
+
+.FAQ-BOX {
+  padding: 20px;
+  background-color: rgb(245, 245, 245);
+}
+
+.top-box {
+  border-radius: 10px 10px 0 0;
+  background-color: white;
+}
+
+.bottom-box {
+  border-radius: 0 0 10px 10px;
+}
+
+.FAQ-ICON {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.blog-card {
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  margin: 25px;
+  padding: 25px;
+}
+
+.blog-card-md {
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.blog-img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: rgb(0, 0, 46);
+  background-image: url(./corona-imgs/shape-a.png);
+  background-position: center;
+  color: rgb(99, 99, 99);
+}
+
+.footer-icon {
+  font-family: "Anton", sans-serif;
+  font-size: 40px;
+  color: white;
+}
+
+.footer-icon i {
+  font-size: 30px;
+}
+
+.footer-btn {
+  margin: 10px 30px;
+  padding: 10px 30px;
+  background-color: rgb(0, 0, 134);
+  color: white;
+  border: none;
+}
+
+footer ul {
+  color: white;
+}
+
+footer li {
+  list-style: none;
+  color: rgb(150, 150, 150);
+}
